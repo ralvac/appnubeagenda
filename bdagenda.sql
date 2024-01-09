@@ -11,7 +11,7 @@ CREATE TABLE agenda
   telefmovi                  VARCHAR(15), -- Modifiqué la longitud a 15 para prever números más largos
   email                      VARCHAR(50), -- Amplié la longitud para los correos electrónicos
   fbc                        VARCHAR(30),
-  CONSTRAINT agenda_codigoper_pk PRIMARY KEY (codigoper)
+  CONSTRAINT agenda_codigo_per_pk PRIMARY KEY (codigoper)
 );
 
 BEGIN TRANSACTION; -- Inicio de la transacción
